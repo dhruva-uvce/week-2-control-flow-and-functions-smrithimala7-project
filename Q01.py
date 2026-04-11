@@ -13,7 +13,7 @@
 # Sample Input:   Enter your score: 85
 # Sample Output:  Grade: B
 
-score=int(input("Enter your score:"))
+score=int(input("Enter your score: "))
 if(score<0 or score>100):
   print("Invalid score")
 else:

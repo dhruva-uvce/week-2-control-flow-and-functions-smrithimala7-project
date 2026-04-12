@@ -13,17 +13,17 @@
 # Sample Input:   Enter your score: 85
 # Sample Output:  Grade: B
 
-score=int(input("Enter your score: "))
+score=int(input())
 if(score<0 or score>100):
-  print("Invalid score")
+  print("invalid")
 else:
   if(score>=90 and score<=100):
-    print("Grade: A")
+    print("A")
   elif(score>=80 and score<90):
-    print("Grade: B")
+    print("B")
   elif(score>=70 and score<80):
-    print("Grade: C")
+    print("C")
   elif(score>=60 and score<70):
-    print("Grade: D")
+    print("D")
   else:
-    print("Grade: F")
+    print("F")
